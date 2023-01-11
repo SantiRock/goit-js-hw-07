@@ -37,6 +37,9 @@ for (let item of galleryItems) {
     }); 
 };
 
+
+
+
 console.log(gallery);
 
 

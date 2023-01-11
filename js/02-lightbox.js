@@ -15,6 +15,7 @@ for (let item of galleryItems) {
     image.src = item.preview;
     image.alt = item.description;
     link.append(image);
+    
     link.addEventListener("click", (event) => {
         event.preventDefault();
     });
@@ -27,4 +28,3 @@ lightbox.options.captionDelay = 250;
 
 console.log(lightbox);
 console.log(gallery);
-
